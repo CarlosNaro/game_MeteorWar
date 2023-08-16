@@ -134,7 +134,7 @@ class Explosion( pygame.sprite.Sprite ):
 def show_go_screen():
     screen.blit(background, [0,0]) # dar fondo a la pantalla de inicio 
     draw_text(screen, "SHOOTER", 65, WIDTH // 2 , HEIGHT //4)
-    draw_text(screen, "Instrucciones van aquí", 27, WIDTH // 2 , HEIGHT //2)
+    draw_text(screen, "Iquitos Technology", 27, WIDTH // 2 , HEIGHT //2)
     draw_text(screen, "Press Key",20 ,WIDTH //2 , HEIGHT * 3/4 )
     pygame.display.flip()
     Waiting = True
